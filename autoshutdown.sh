@@ -2,7 +2,7 @@
 
 #Quick script to shutdown a laptop when AC power is no longer being supplied and the battery is low.
 #Can optionally send an alert out via Pushover or email (Need a functioning mail server for this)
-#Tested on Proxmox VE. Needs the following packages installed on the target server: powermgmt-base curl util-linux
+#Tested on Proxmox VE. Needs the following packages installed on the target server: curl util-linux
 
 #Set alerting method (telegram/pushover/email/off)
 #a value of 'off' here will disable all alerts
